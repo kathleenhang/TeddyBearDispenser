@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>redBear</key>
+	<dict>
+		<key>price</key>
+		<real>3.5</real>
+		<key>quantity</key>
+		<integer>3</integer>
+	</dict>
+	<key>orangeBear</key>
+	<dict>
+		<key>price</key>
+		<real>75.5</real>
+		<key>quantity</key>
+		<integer>1</integer>
+	</dict>
+	<key>yellowBear</key>
+	<dict>
+		<key>price</key>
+		<integer>35</integer>
+		<key>quantity</key>
+		<integer>2</integer>
+	</dict>
+	<key>greenBear</key>
+	<dict>
+		<key>price</key>
+		<real>10.5</real>
+		<key>quantity</key>
+		<integer>4</integer>
+	</dict>
+	<key>blueBear</key>
+	<dict>
+		<key>price</key>
+		<real>25</real>
+		<key>quantity</key>
+		<integer>6</integer>
+	</dict>
+	<key>purpleBear</key>
+	<dict>
+		<key>price</key>
+		<integer>88</integer>
+		<key>quantity</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>
