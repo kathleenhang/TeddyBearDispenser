@@ -183,6 +183,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? DispensingItemCell else {
                 fatalError()
+           
             }
             // collection view uses indexes and it stores it in indexPath. nested array. .row gets us to index we care about
             // we know exactly what selection is being loaded into that cell
