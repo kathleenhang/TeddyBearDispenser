@@ -14,6 +14,8 @@
 		2473DECC20398CD500F36D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2473DECA20398CD500F36D54 /* LaunchScreen.storyboard */; };
 		2473DED420398D0100F36D54 /* TeddyBearInventory.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2473DED320398D0100F36D54 /* TeddyBearInventory.plist */; };
 		2473DED6203D122D00F36D54 /* TeddyBearDispenser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473DED5203D122D00F36D54 /* TeddyBearDispenser.swift */; };
+		2473DED8203F2A3C00F36D54 /* DispensingItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473DED7203F2A3C00F36D54 /* DispensingItemCell.swift */; };
+		2473DEDA203FA7E500F36D54 /* DepositController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2473DED9203FA7E500F36D54 /* DepositController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2473DECD20398CD500F36D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2473DED320398D0100F36D54 /* TeddyBearInventory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TeddyBearInventory.plist; sourceTree = "<group>"; };
 		2473DED5203D122D00F36D54 /* TeddyBearDispenser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeddyBearDispenser.swift; sourceTree = "<group>"; };
+		2473DED7203F2A3C00F36D54 /* DispensingItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispensingItemCell.swift; sourceTree = "<group>"; };
+		2473DED9203FA7E500F36D54 /* DepositController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				2473DEC120398CD500F36D54 /* AppDelegate.swift */,
 				2473DEC320398CD500F36D54 /* ViewController.swift */,
+				2473DED7203F2A3C00F36D54 /* DispensingItemCell.swift */,
 				2473DED5203D122D00F36D54 /* TeddyBearDispenser.swift */,
 				2473DEC520398CD500F36D54 /* Main.storyboard */,
+				2473DED9203FA7E500F36D54 /* DepositController.swift */,
 				2473DEC820398CD500F36D54 /* Assets.xcassets */,
 				2473DECA20398CD500F36D54 /* LaunchScreen.storyboard */,
 				2473DECD20398CD500F36D54 /* Info.plist */,
@@ -145,6 +151,8 @@
 			files = (
 				2473DEC420398CD500F36D54 /* ViewController.swift in Sources */,
 				2473DEC220398CD500F36D54 /* AppDelegate.swift in Sources */,
+				2473DEDA203FA7E500F36D54 /* DepositController.swift in Sources */,
+				2473DED8203F2A3C00F36D54 /* DispensingItemCell.swift in Sources */,
 				2473DED6203D122D00F36D54 /* TeddyBearDispenser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
